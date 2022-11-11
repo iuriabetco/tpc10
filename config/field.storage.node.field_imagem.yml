@@ -1,0 +1,20 @@
+uuid: 3ba5173a-5a09-4679-978f-e324f4682a99
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+id: node.field_imagem
+field_name: field_imagem
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

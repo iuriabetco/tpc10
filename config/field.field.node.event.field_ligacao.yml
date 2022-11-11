@@ -1,0 +1,23 @@
+uuid: 02a97d10-c954-4609-9c16-a850e100e6e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ligacao
+    - node.type.event
+  module:
+    - link
+id: node.event.field_ligacao
+field_name: field_ligacao
+entity_type: node
+bundle: event
+label: Ligação
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

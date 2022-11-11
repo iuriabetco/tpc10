@@ -1,0 +1,21 @@
+uuid: 8fd124f3-9f23-4946-ab4c-bf32d3e97bc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_data_inicio
+    - node.type.event
+  module:
+    - datetime
+id: node.event.field_data_inicio
+field_name: field_data_inicio
+entity_type: node
+bundle: event
+label: 'Data de início '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

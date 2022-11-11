@@ -1,0 +1,20 @@
+uuid: 3e2c71e1-a9a1-4bf5-8254-345ec10ded08
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_data_fim
+field_name: field_data_fim
+entity_type: node
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

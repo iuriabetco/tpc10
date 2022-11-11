@@ -1,0 +1,20 @@
+uuid: 2f496f2f-0c5b-4622-bcab-0bbcec927cc0
+langcode: en
+status: true
+dependencies: {  }
+name: banner
+label: 'Banner (1100×300)'
+effects:
+  0a723143-b75a-4af1-979e-0bd972c7cee8:
+    uuid: 0a723143-b75a-4af1-979e-0bd972c7cee8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1100
+      height: 300
+      anchor: center-center
+  065de42d-3a6e-4117-9f1f-14b21fc2b67b:
+    uuid: 065de42d-3a6e-4117-9f1f-14b21fc2b67b
+    id: image_desaturate
+    weight: 2
+    data: {  }

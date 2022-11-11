@@ -1,0 +1,21 @@
+uuid: ea6e4c19-3069-4adc-b5c2-935d80b726ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_data_fim
+    - node.type.event
+  module:
+    - datetime
+id: node.event.field_data_fim
+field_name: field_data_fim
+entity_type: node
+bundle: event
+label: 'Data de fim'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

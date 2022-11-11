@@ -1,0 +1,8 @@
+uuid: ade36747-2d12-477c-875a-450c73766e0d
+langcode: en
+status: true
+dependencies: {  }
+name: 'Event Types'
+vid: event_types
+description: 'Use this taxonomy to group events of the same type.'
+weight: 0
