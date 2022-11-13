@@ -1,0 +1,22 @@
+label: 'A página inicial'
+description: 'Todo o conteúdo promovido para a primeira página.'
+display:
+  default:
+    display_title: Predefinido
+    display_options:
+      title: Início
+      exposed_form:
+        options:
+          submit_button: Aplicar
+          reset_button_label: Reiniciar
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      empty:
+        area_text_custom:
+          content: 'Ainda não foi criado nenhum conteúdo para a página inicial.'
+        title:
+          title: 'Bem-vindo a [site:name]'
+  feed_1:
+    display_title: Feed
+  page_1:
+    display_title: Página

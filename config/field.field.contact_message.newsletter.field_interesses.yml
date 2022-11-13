@@ -1,0 +1,21 @@
+uuid: f66c15f0-6c06-4c08-9e3c-db898e04eab3
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.newsletter
+    - field.storage.contact_message.field_interesses
+  module:
+    - options
+id: contact_message.newsletter.field_interesses
+field_name: field_interesses
+entity_type: contact_message
+bundle: newsletter
+label: Interesses
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

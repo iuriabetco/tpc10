@@ -1,0 +1,20 @@
+uuid: e79e9ee8-de29-44da-b170-92f2627adb2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_numero_telemovel
+  module:
+    - user
+id: user.user.field_numero_telemovel
+field_name: field_numero_telemovel
+entity_type: user
+bundle: user
+label: 'Número telemóvel'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

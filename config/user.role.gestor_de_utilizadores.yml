@@ -1,0 +1,14 @@
+uuid: 32dc2030-479a-4ce7-86f3-91541f45500b
+langcode: en
+status: true
+dependencies:
+  module:
+    - toolbar
+id: gestor_de_utilizadores
+label: 'Gestor de utilizadores'
+weight: 5
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'administer account settings'
+  - 'administer users'

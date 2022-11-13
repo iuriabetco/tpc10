@@ -1,0 +1,20 @@
+display:
+  default:
+    display_title: Predefinido
+    display_options:
+      title: 'Mais artigos destacados '
+      fields:
+        title:
+          separator: ', '
+      exposed_form:
+        options:
+          submit_button: Aplicar
+          reset_button_label: Reiniciar
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      arguments:
+        nid:
+          exception:
+            title: Todos
+  block_1:
+    display_title: Bloco

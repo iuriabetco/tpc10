@@ -1,0 +1,12 @@
+uuid: f5324145-c8d1-431c-af2d-f07a454803fb
+langcode: en
+status: true
+dependencies: {  }
+id: newsletter
+label: Newsletter
+recipients:
+  - info@mail.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

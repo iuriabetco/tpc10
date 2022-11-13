@@ -1,0 +1,17 @@
+label: 'Coleções de Receitas'
+display:
+  default:
+    display_title: Predefinido
+    display_options:
+      title: 'Coleções de Receitas'
+      fields:
+        name:
+          separator: ', '
+      exposed_form:
+        options:
+          submit_button: Aplicar
+          reset_button_label: Reiniciar
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+  block:
+    display_title: Bloco

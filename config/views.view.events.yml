@@ -259,7 +259,7 @@ display:
         type: normal
         title: Events
         description: ''
-        weight: 30
+        weight: -47
         expanded: false
         menu_name: main
         parent: ''

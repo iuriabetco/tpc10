@@ -1,0 +1,28 @@
+display:
+  default:
+    display_title: Predefinido
+    display_options:
+      title: Artigos
+      fields:
+        title:
+          separator: ', '
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+          expose:
+            items_per_page_label: 'Itens por página'
+            items_per_page_options_all_label: '- Todos -'
+            offset_label: Deslocamento
+      exposed_form:
+        options:
+          submit_button: Aplicar
+          reset_button_label: Reiniciar
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+  page_1:
+    display_title: Página
+    display_options:
+      menu:
+        title: Artigos

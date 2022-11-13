@@ -1,0 +1,14 @@
+uuid: 7bd5d2f4-d181-457a-b614-267cc18b2b6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.gestor_de_utilizadores
+  module:
+    - user
+id: user_add_role_action.gestor_de_utilizadores
+label: 'Add the Gestor de utilizadores role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: gestor_de_utilizadores

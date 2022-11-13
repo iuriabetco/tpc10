@@ -1,0 +1,10 @@
+label: 'Página de disposição de bloco'
+tips:
+  place-block:
+    label: 'Colocar Blocos'
+  block-region:
+    label: 'Região do Bloco'
+  configure-block:
+    label: 'Configurar Bloco'
+  custom-block-library:
+    label: 'Biblioteca de Blocos Personalizados'
